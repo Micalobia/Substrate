@@ -6,12 +6,46 @@ namespace Substrate
 {
 
     // Block Data
+    public enum StoneType
+    {
+        STONE = 0,
+        GRANITE = 1,
+        POLISHED_GRANITE = 2,
+        DIORITE = 3,
+        POLISHED_DIORITE = 4,
+        ANDESITE = 5,
+        POLISHED_ANDESITE = 6
+    }
 
     public enum WoodType
     {
         OAK = 0,
         SPRUCE = 1,
         BIRCH = 2,
+        JUNGLE = 3
+    }
+
+    public enum WoodType2
+    {
+        ACACIA = 0,
+        DARK_OAK = 1
+    }
+
+    public enum PlankType
+    {
+        OAK = 0,
+        SPRUCE = 1,
+        BIRCH = 2,
+        JUNGLE = 3,
+        ACACIA = 4,
+        DARK_OAK = 5
+    }
+
+    public enum DirtType
+    {
+        DIRT = 0,
+        COARSE_DIRT = 1,
+        PODZOL = 2
     }
 
     public enum LeafType
@@ -19,7 +53,202 @@ namespace Substrate
         OAK = 0,
         SPRUCE = 1,
         BIRCH = 2,
-        DARK_OAK = 3,
+        JUNGLE = 3,
+    }
+
+    public enum LeafType2
+    {
+        ACACIA = 0,
+        DARK_OAK = 1
+    }
+
+    public enum PrismarineType
+    {
+        PRISMARINE = 0,
+        PRISMARINE_BRICKS = 1,
+        DARK_PRISMARINE = 2
+    }
+
+    public enum SpongeType
+    {
+        DRY_SPONGE = 0,
+        WET_SPONGE = 1
+    }
+
+    public enum SandType
+    {
+        SAND = 0,
+        RED_SAND = 1
+    }
+
+    public enum SandstoneType
+    {
+        SANDSTONE = 0,
+        CHISELED_SANDSTONE = 1,
+        SMOOTH_SANDSTONE = 2
+    }
+
+    public enum PlantType
+    {
+        DEAD_SHRUB = 0,
+        GRASS = 1,
+        FERN = 2
+    }
+
+    public enum FlowerType
+    {
+        POPPY = 0,
+        BLUE_ORCHID = 1,
+        ALLIUM = 2,
+        AZURE_BLUET = 3,
+        RED_TULIP = 4,
+        ORANGE_TULIP = 5,
+        WHITE_TULIP = 6,
+        PINK_TULIP = 7,
+        OXEYE_DAISY = 8
+    }
+
+    public enum SlabType
+    {
+        STONE = 0,
+        SANDSTONE = 1,
+        COBBLESTONE = 2,
+        BRICK = 3,
+        STONE_BRICK = 4,
+        NETHER_BRICK = 5,
+        QUARTZ = 6
+    }
+
+    public enum PlankSlabType
+    {
+        OAK = 0,
+        SPRUCE = 1,
+        BIRCH = 2,
+        JUNGLE = 3,
+        ACACIA = 4,
+        DARK_OAK =5
+    }
+
+    public enum SpawnEgg
+    {
+        ELDER_GUARDIAN = 4,
+        WITHER_SKELETON = 5,
+        STRAY = 6,
+        HUSK = 23,
+        ZOMBIE_VILLAGER = 27,
+        SKELETON_HORSE = 28,
+        ZOMBIE_HORSE = 29,
+        DONKEY = 31,
+        MULE = 32,
+        EVOKER = 34,
+        VEX = 35
+    }
+
+    public enum CobbleWallType
+    {
+        COBBLESTONE_WALL = 0,
+        MOSSY_COBBLESTONE_WALL = 1
+    }
+
+    public enum AnvilType
+    {
+        ANVIL = 0,
+        SLIGHTLY_DAMAGED_ANVIL = 1,
+        VERY_DAMAGED_ANVIL = 2
+    }
+
+    public enum QuartzType
+    {
+        QUARTZ = 0,
+        CHISELED_QUARTZ = 1,
+        PILLAR_QUARTZ = 2
+    }
+
+    public enum MonsterEggType
+    {
+        STONE = 0,
+        COBBLESTONE = 1,
+        STONE_BRICK = 2,
+        MOSSY_STONE_BRICK = 3,
+        CRACKED_STONE_BRICK = 4,
+        CHISELED_STONE_BRICK = 5
+    }
+
+    public enum StoneBrickType
+    {
+        STONE_BRICK = 0,
+        MOSSY_STONE_BRICK = 1,
+        CRACKED_STONE_BRICK = 2,
+        CHISELED_STONE_BRICK = 3
+    }
+
+    public enum DoubleFlowerType
+    {
+        SUNFLOWER = 0,
+        LILAC = 1,
+        DOUBLE_TALLGRASS = 2,
+        LARGE_FERN = 3,
+        ROSE_BUSH = 4,
+        PEONY = 5
+    }
+
+    public enum CoalType
+    {
+        COAL = 0,
+        CHARCOAL = 1
+    }
+
+    public enum DyeColor
+    {
+        BLACK = 0,
+        RED = 1,
+        GREEN = 2,
+        BROWN = 3,
+        BLUE = 4,
+        PURPLE = 5,
+        CYAN = 6,
+        LIGHT_GRAY = 7,
+        GRAY = 8,
+        PINK = 9,
+        LIME = 10,
+        YELLOW = 11,
+        LIGHT_BLUE = 12,
+        MAGENTA = 13,
+        ORANGE = 14,
+        WHITE = 15
+    }
+
+    public enum BannerColor
+    {
+        BLACK = 0,
+        RED = 1,
+        GREEN = 2,
+        BROWN = 3,
+        BLUE = 4,
+        PURPLE = 5,
+        CYAN = 6,
+        LIGHT_GRAY = 7,
+        GRAY = 8,
+        PINK = 9,
+        LIME = 10,
+        YELLOW = 11,
+        LIGHT_BLUE = 12,
+        MAGENTA = 13,
+        ORANGE = 14,
+        WHITE = 15
+    }
+
+    public enum RawFishType
+    {
+        RAW_FISH,
+        RAW_SALMON,
+        CLOWNFISH
+    }
+
+    public enum CookedFishType
+    {
+        COOKED_FISH,
+        COOKED_SALMON
     }
 
     [Flags]
@@ -34,6 +263,9 @@ namespace Substrate
         OAK = 0,
         SPRUCE = 1,
         BIRCH = 2,
+        JUNGLE = 3,
+        ACACIA = 4,
+        DARK_OAK = 5
     }
 
     public enum WaterFlow
@@ -79,6 +311,96 @@ namespace Substrate
     }
 
     public enum WoolColor
+    {
+        WHITE = 0,
+        ORANGE = 1,
+        MAGENTA = 2,
+        LIGHT_BLUE = 3,
+        YELLOW = 4,
+        LIGHT_GREEN = 5,
+        PINK = 6,
+        GRAY = 7,
+        LIGHT_GRAY = 8,
+        CYAN = 9,
+        PURPLE = 10,
+        BLUE = 11,
+        BROWN = 12,
+        DARK_GREEN = 13,
+        RED = 14,
+        BLACK = 15
+    }
+
+    public enum HeadType
+    {
+        SKELETON_SKULL,
+        WITHER_SKELETON_SKULL,
+        ZOMBIE_HEAD,
+        STEVE_HEAD,
+        CREEPER_HEAD,
+        DRAGON_HEAD
+    }
+
+    public enum BedColor
+    {
+        WHITE = 0,
+        ORANGE = 1,
+        MAGENTA = 2,
+        LIGHT_BLUE = 3,
+        YELLOW = 4,
+        LIGHT_GREEN = 5,
+        PINK = 6,
+        GRAY = 7,
+        LIGHT_GRAY = 8,
+        CYAN = 9,
+        PURPLE = 10,
+        BLUE = 11,
+        BROWN = 12,
+        DARK_GREEN = 13,
+        RED = 14,
+        BLACK = 15
+    }
+
+    public enum ConcreteColor
+    {
+        WHITE = 0,
+        ORANGE = 1,
+        MAGENTA = 2,
+        LIGHT_BLUE = 3,
+        YELLOW = 4,
+        LIGHT_GREEN = 5,
+        PINK = 6,
+        GRAY = 7,
+        LIGHT_GRAY = 8,
+        CYAN = 9,
+        PURPLE = 10,
+        BLUE = 11,
+        BROWN = 12,
+        DARK_GREEN = 13,
+        RED = 14,
+        BLACK = 15
+    }
+
+    public enum StainedGlassColor
+    {
+        WHITE = 0,
+        ORANGE = 1,
+        MAGENTA = 2,
+        LIGHT_BLUE = 3,
+        YELLOW = 4,
+        LIGHT_GREEN = 5,
+        PINK = 6,
+        GRAY = 7,
+        LIGHT_GRAY = 8,
+        CYAN = 9,
+        PURPLE = 10,
+        BLUE = 11,
+        BROWN = 12,
+        DARK_GREEN = 13,
+        RED = 14,
+        BLACK = 15
+    }
+
+    public enum TerracottaColor
     {
         WHITE = 0,
         ORANGE = 1,
@@ -237,16 +559,6 @@ namespace Substrate
     public enum PressurePlateState
     {
         PRESSED = 0x01,
-    }
-
-    public enum SlabType
-    {
-        STONE = 0,
-        SANDSTONE = 1,
-        WOOD = 2,
-        COBBLESTONE = 3,
-        BRICK = 4,
-        STONE_BRICK = 5,
     }
 
     [Flags]

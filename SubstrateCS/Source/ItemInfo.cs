@@ -169,6 +169,16 @@ namespace Substrate
         public const int DIAMOND_HORSE_ARMOR = 419;
         public const int LEAD = 420;
         public const int NAME_TAG = 421;
+        public const int COMMAND_BLOCK_MINECART = 422;
+        public const int RAW_WUTTON = 423;
+        public const int COOKED_MUTTON = 424;
+        public const int BANNER = 425;
+        public const int SPRUCE_DOOR = 425;
+        public const int BIRCH_DOOR = 436;
+        public const int JUNGLE_DOOR = 437;
+        public const int ACACIA_DOOR = 438;
+        public const int DARK_OAK_DOOR = 439;
+        public const int 
         public const int MUSIC_DISC_13 = 2256;
         public const int MUSIC_DISC_CAT = 2257;
         public const int MUSIC_DISC_BLOCKS = 2258;
